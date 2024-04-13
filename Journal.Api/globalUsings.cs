@@ -1,0 +1,15 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.OpenApi.Models;
+global using Asp.Versioning;
+global using Serilog;
+global using Journal.Api;
+global using Journal.DataAccess.DependencyInjection;
+global using Journal.Application.DependencyInjection;
+global using Journal.Domain.Result;
+global using Journal.Domain.Abstractions.Services;
+global using Journal.Domain.Contracts;
+global using Journal.Domain.Contracts.Tag;
+global using Journal.Domain.Contracts.Article;
+global using Journal.Domain.Contracts.Comment;
+global using Journal.Domain.Contracts.User;
